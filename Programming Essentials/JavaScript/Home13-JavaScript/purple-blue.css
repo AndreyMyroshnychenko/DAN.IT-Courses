@@ -1,0 +1,27 @@
+body{
+    background-color: #121212;
+    transition: 1s;
+}
+.nav-text a{
+    color: #583eac;
+}
+
+.button{
+    background-color: #411ac2;
+}
+
+.change-theme {
+    background-color: #7A7197;
+}
+
+.main-caption {
+    color: #2f07b3;
+}
+
+.main-text {
+    color: #240390;
+}
+
+.copyrights {
+    color: #6f6397;
+}

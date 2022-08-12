@@ -1,0 +1,378 @@
+body{
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    background-color: #313131;
+    width: 100%;
+    height: 70px;
+}
+.nav-logo-img{
+    width: 27px;
+    height: 27px;
+    padding: 22px 28px;
+}
+
+.hero {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 22px 0;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-item {
+    padding: 27px 35px;
+}
+
+.menu-item a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.menu-item a:hover{
+    color: #14B9D5;
+}
+
+.nav-search-img{
+    width: 17px;
+    height: 17px;
+    padding: 26px;
+    background-color: black;
+}
+
+.news{
+    background-image: url("../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 369px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.nav-text{
+    padding-top: 163px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.nav-subscribe{
+    padding: 16px 19px;
+    background-color: #89CA62;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.nav-articles{
+    padding: 16px 19px;
+    background-color: #14B9D5;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.news a{
+    color: #FFFFFF;
+}
+
+.posts-container{
+    background-color: #F2F2F2;
+
+}
+
+.popular-posts{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    color: #18B4CF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 49px;
+    padding-bottom: 52px;
+}
+
+.posts-text{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 21px 0;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.post-item{
+    width: 370px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.most-popular{
+background-image: url("../images/parallax.jpeg");
+    height: 588px;
+    background-attachment: fixed;
+}
+
+.most-popular-text{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 106px;
+    text-transform: uppercase;
+}
+
+.text-wrapper {
+    width: 60px;
+    height: 3px;
+    background: #18B4CF;
+    margin-top: 87px;
+    border: none;
+    margin-bottom: 106px;
+}
+
+.grid-clients{
+    display: grid;
+    grid-template-areas:
+"img1 img2 img3 img4";
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.popular-clients1{
+grid-area: img1;
+}
+
+.popular-clients2{
+grid-area: img2;
+}
+
+.popular-clients3{
+    grid-area: img3;
+}
+
+.popular-clients4{
+    grid-area: img4;
+}
+
+.main-text{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #18B4CF;
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 52px;
+}
+
+.top-rated{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(271px,1fr));
+}
+
+.top-item{
+    width: 100%;
+}
+
+
+.news-subtext1{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5B6469;
+    margin: 15px 14px;
+    text-align: right;
+}
+
+.news-subtext2{
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5B6469;
+    margin-top: 15px;
+    padding-right: 14px;
+}
+
+.news-subcontainer{
+    background: #F9F7F7;
+}
+
+.news-text1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 41px;
+    text-align: right;
+    padding-right: 14px;
+}
+
+.news-text2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 14px 0;
+    text-align: center;
+    background: #F9F7F7;
+}
+
+.news-text3{
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    padding-right: 27px;
+}
+
+.news-container{
+    display: grid;
+    grid-template-areas:
+"emirate emirate emirate nebula"
+"pyramid pyramid  meadows meadows"
+"wanderlust wanderlust twin twin"
+"prism king king king";
+    width:1200px;
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
+
+.news-item1{
+    display: flex;
+    grid-area: emirate;
+    margin-right:35px;
+    margin-bottom: 45px;
+}
+
+.news-item2{
+    grid-area: nebula;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.news-item3{
+    grid-area: pyramid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    margin-right: 60px;
+
+}
+
+.news-item4{
+    grid-area: meadows;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.news-item5{
+    grid-area: wanderlust;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    margin-right: 60px;
+}
+
+.news-item6{
+    grid-area: twin;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.news-item7 {
+    grid-area: prism;
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+.news-item8 {
+    grid-area: king;
+    display: flex;
+}
+
+.foo{
+    display: grid;
+    grid-template-columns: 50% 41% 9%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foo-items{
+    grid-column-start: 3;
+
+}
+
+.liot-img{
+    padding-bottom: 8px;
+}
+
+.foo-text{
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 4px;
+}
+
+.bgfoo{
+    background: #000000;
+    padding: 30px 0;
+}
+
+#top-rated{
+    display: none;
+    height: max-content;
+}
+.btn-slide {
+    text-align: center;
+    padding: 30px 130px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    width: max-content;
+    background-color: orange;
+    border-top: solid 4px #422410;
+    border-radius: 10px;
+    cursor: pointer;
+}

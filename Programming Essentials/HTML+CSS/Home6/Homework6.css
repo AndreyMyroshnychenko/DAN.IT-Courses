@@ -1,0 +1,365 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.back-image{
+width: 100vw;
+height: 100vh;
+background-image: url(./Images/Back-image.png);
+background-size: cover;
+}
+
+.back-image-menu{
+    background: rgba(0, 0, 0,   0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    margin: 0 auto;
+    width: 88.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 18px 0;
+}
+.title a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.title a:hover{
+    color:#236c47;
+    transition: 0.4s;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item:nth-child(-n+2){
+    margin: 17px 24px 17px 0;
+}
+
+.menu-item:last-child{
+    color: #FFFFFF;
+    margin-top: 21px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-item:last-child a{
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-item:nth-child(3){
+    margin: 17px 53px 17px 0;
+    position: relative;
+}
+
+.menu-item:nth-child(3)::after{
+    content: "";
+    width: 1px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 3px;
+    right: -25px;
+}
+
+.menu-item:hover path{
+    fill: #236c47;
+    transition: 0.4s;
+}
+
+.menu-item:last-child:hover{
+    color: #969696;
+    transition: 0.4s;
+}
+.menu-item:last-child:hover a{
+    color: #236c47;
+    transition: 0.4s;
+}
+
+.main-info{
+    background: #FFFFFF;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.52);
+    width: 444px;
+    position: absolute;
+    top: calc(50% + 30.5px);
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-info_workplace{
+    width: 73%;
+    margin: 0 auto;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.signup_button{
+    font-size: 20px;
+    color: #434343;
+    margin-top: 32px;
+    position: relative;
+}
+
+.signup_button:before{
+    background: #3CB878;
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -60px;
+}
+
+.log_in{
+    margin-top: 32px;
+    font-size: 14px;
+    color: #3CB878;
+    
+}
+
+.main-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-link_facebook{
+    color: #FFFFFF;
+    padding: 17px 22px 17px 67px;
+    background: #305DB8;
+    border-radius: 3px;
+    position: relative;
+}
+
+.main-link_facebook:after{
+    width: 1px;
+    height: 28px;
+    background: #0A162F;
+    content: "";
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    opacity: 0.1;
+}
+
+.main-link_google{
+    padding: 17px 27px 17px 80px;
+    color: #FFFFFF;
+    background: #DF4A32;
+    border-radius: 3px;
+    position: relative;
+}
+
+.main-link_google:after{
+    width: 1px;
+    height: 28px;
+    background: #2B0D09;
+    content: "";
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    opacity: 0.1;
+}
+
+.main-google-img{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+
+
+.main-facebook-img{
+    position: absolute;
+    top: 12px;
+    left: 17px;
+}
+
+
+.main-line{
+    display: flex;
+    color: #848484;
+    font-size: 14px;
+    justify-content: space-around;
+    margin-top: 31px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.main-line:after{
+    width: 152px;
+    height: 1px;
+    background: #F2F2F2;
+    content: "";
+    position: absolute;
+    right: 2px;
+    top: 8px;
+}
+.main-line:before{
+    width: 152px;
+    height: 1px;
+    background: #F2F2F2;
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 8px;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-lastname{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-email{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-password{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-password_confirm{
+    border: 1px solid #F2F2F2;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.form-name{
+    margin: 0;
+}
+
+.form-lastname,
+.form-email,
+.form-password,
+.form-password_confirm{
+    margin: 15px 0 0 0;
+}
+.form-name:focus,
+.form-lastname:focus,
+.form-email:focus,
+.form-password:focus,
+.form-password_confirm:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+
+.form-name::placeholder,
+.form-lastname::placeholder,
+.form-email::placeholder,
+.form-password::placeholder,
+.form-password_confirm::placeholder{
+    color: #BEBEBE;
+}
+
+.checkbox_text{
+    font-size: 14px;
+}
+
+.checkbox_text a{
+    font-size: 14px;
+    color: rgba(60, 184, 120, 0.8);;
+}
+
+.form-submit{
+    margin: 20px 0 38px 0;
+    border: none;
+    padding: 16px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.form-group{
+    margin: 12px 0 0 0;
+    position: relative;
+}
+
+.form-group input {
+    display: none;
+}
+
+.form-group label {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.form-group label:before {
+    content:'';
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #F2F2F2;
+    padding: 10px;
+    position: absolute;
+    top: -3.5px;
+    left: 2px;
+}
+
+.form-group input:checked + label:after {
+    content: url(./Images/vector-tick.svg);
+    position: absolute;
+    left: 5px;
+}
+
+.main-link_facebook:hover{
+    background: #022263;
+    transition: 0.4s;
+}
+
+.main-link_google:hover{
+    background: #AB1F09;
+    transition: 0.4s;
+
+}
+
+.checkbox_text:hover a{
+    text-decoration: underline;
+
+}
+
+.form-submit:hover{
+    background: #01813F;
+    transition: 0.4s;
+
+}
+
+.log_in:hover{
+    text-decoration: underline;
+}
